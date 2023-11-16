@@ -17,6 +17,7 @@ class OutLook:
         self.end_date = datetime.datetime(year=today.year, month=today.month, day=today.day, tzinfo=timezone('UTC'))
         self.start_date = datetime.datetime(year=2023, month=9, day=10, tzinfo=timezone('UTC'))
 
+
     def check_output_folder(self):
         if not os.path.exists("Output"):
             folder_name = Path('Output')
