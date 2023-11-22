@@ -15,17 +15,17 @@ class ContactsFile:
             self.file = open('Output/contacts_file.txt', "r")
             self.data = self.file.read()
             self.data_contacts_from_file = self.data.split("\n")
-            print(self.data_contacts_from_file)
+            # print(self.data_contacts_from_file)
 
     def append_contacts(self, list_of_contacts):
         self.contacts_from_outlook = list_of_contacts
         for name_from_outlook in self.contacts_from_outlook:
             if not self.data_contacts_from_file:
                 self.file_a = open('Output/contacts_file.txt', "+a")
-                print(name_from_outlook)
+                # print(name_from_outlook)
                 self.file_a.write(f'{name_from_outlook.lower()}\n')
             else:
                 if name_from_outlook.lower() not in self.data_contacts_from_file:
                     self.file_a = open('Output/contacts_file.txt', "+a")
-                    print(name_from_outlook)
+                    # print(name_from_outlook)
                     self.file_a.write(f'{name_from_outlook.lower()}\n')
