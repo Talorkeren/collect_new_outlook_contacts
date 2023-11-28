@@ -7,7 +7,7 @@
   },
   {
    "optionDest": "filenames",
-   "value": "C:/Users/talor/OneDrive - CropX/Talor/scripts/collect_new_outlook_contacts/export_data_from_outlook.py"
+   "value": "C:/Users/talor/OneDrive - CropX/Talor/scripts/collect_new_outlook_contacts/Collect_New_Outlook_Contacts.py"
   },
   {
    "optionDest": "onefile",
@@ -15,7 +15,7 @@
   },
   {
    "optionDest": "console",
-   "value": true
+   "value": false
   },
   {
    "optionDest": "icon_file",
@@ -70,12 +70,28 @@
    "value": false
   },
   {
+   "optionDest": "hiddenimports",
+   "value": "win32timezone"
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Users/talor/AppData/Local/Programs/Python/Python311/Lib/site-packages/customtkinter-5.2.0.dist-info;customtkinter-5.2.0.dist-info/"
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Users/talor/AppData/Local/Programs/Python/Python311/Lib/site-packages/customtkinter;customtkinter/"
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Users/talor/OneDrive - CropX/Talor/scripts/collect_new_outlook_contacts/export_data_from_outlook.py;."
+  },
+  {
    "optionDest": "datas",
    "value": "C:/Users/talor/OneDrive - CropX/Talor/scripts/collect_new_outlook_contacts/output_file.py;."
   },
   {
-   "optionDest": "hiddenimports",
-   "value": "win32timezone"
+   "optionDest": "datas",
+   "value": "C:/Users/talor/OneDrive - CropX/Talor/scripts/collect_new_outlook_contacts/icon.ico;."
   }
  ],
  "nonPyinstallerOptions": {

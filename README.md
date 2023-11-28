@@ -1,10 +1,16 @@
 # Collect_new_outlook_contacts
 
+#### The script collects new contacts from a shared calendar.
 ***
+![img.png](img.png)
 
-The script will collect all the meetings from the shared calendar, \
-then it will filter the meetings that occurred in the last 30 days, \
-after that, it will check for new contacts and will save them here --> Output/contacts_file.txt 
+***
+1. Write how many days were passed from the last report.
+2. Click on start button and select the last updated file.
+3. The script will collect all the meetings from the shared calendar.
+4. Then it will filter the meetings that occurred in the given days.
+5. After that, it will create a copy of the selected file.
+6. The script will append new contacts to the new file.
 
 
 ***
