@@ -16,7 +16,11 @@ class OutLook:
     def connect_to_outlook(self):
         try:
             outlook = win32com.client.Dispatch("Outlook.Application").GetNamespace("MAPI")
-            shared_calendar = outlook.CreateRecipient("Shahar Dadon Zusman")
+            ## Use for DefaultFolder
+            # self.meets = outlook.GetDefaultFolder(9).Items
+
+            ## Use for Shared Default Folder
+            shared_calendar = outlook.CreateRecipient("Tomer Tzach")
             self.meets = outlook.GetSharedDefaultFolder(shared_calendar, 9).Items
             return self.meets
 

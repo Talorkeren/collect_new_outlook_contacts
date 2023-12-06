@@ -35,7 +35,11 @@ class ContactsFile:
         for key, value in self.contacts_from_outlook.items():
             self.addr = key.lower()
             self.var = {"Email_Address": key.lower(),
+                        # For Shahar
                         "First_Name": value}
+                        ## For Matan
+                        # "Full_Name": value}
+
             if self.addr not in self.list_addr_file:
                 self.count_addr.append(self.addr)
                 with open(self.new_filename_csv, 'a', newline='') as f:
@@ -48,4 +52,3 @@ class ContactsFile:
                         self.write_new_row.writerow(self.var)
         print(len(self.count_addr))
         return len(self.count_addr)
-
